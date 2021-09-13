@@ -1,0 +1,61 @@
+body
+{
+	/*background: #444;*/
+	/*color: white;*/
+}
+
+#video-list .panel-body
+{
+	padding-left: 0px;
+}
+
+.video-image-mask
+{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+}
+
+.video-image-mask .video-image
+{
+	width: 100%;
+}
+
+.video-title
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.video-title a
+{
+	color: #444;
+}
+
+/*.title-coments
+{
+	color: white;
+}*/
+
+.video-sides
+{
+	width: 100%; 
+	margin-right: 10px; 
+	margin-bottom: 10px;
+	border-radius: 1rem;
+	/*height: 1000%; */
+	/*overflow: hidden;*/
+}
+
+
+/* Boton en la busqueda para pegarse del select */
+.btn-sides
+{
+	margin: 0px -25px 0px;
+}
+
+/* Margen de arriba entre el select para emparejar con el titulo buscado */
+.select-filter
+{
+	margin-top: 20px;
+}
